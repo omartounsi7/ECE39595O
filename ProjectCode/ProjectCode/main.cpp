@@ -1,10 +1,29 @@
 #include <iostream>
-
+#include <fstream>
+#include <string>
+using namespace std;
 #include "parser.h"
 #include "SymbolTable.h"
 
-int main(int argc, char* argv[]) {
+void read_infile(const char* input)
+{
+    std::ifstream file(input);
+    if (file) {
+        std::cout << file.rdbuf();
+    }
+    else {
+        std::cerr << "Failed to open file" << '\n';
+    }
+}
 
+int main(int argc, char* argv[]) {
+    
+    if (argc == 2) {
+        read_infile(argv[1]);
+    }
+    else {
+        return;
+    }
 
 }
 
