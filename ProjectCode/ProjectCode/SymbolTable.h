@@ -10,7 +10,7 @@ class SymbolTable {
 
 	private:
 		int idx;
-		int *definedMap;
+		void *definedMap;
 
 };
 #endif
