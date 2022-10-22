@@ -1,6 +1,8 @@
 #ifndef STATEMENT_H_
 #define STATEMENT_H_
 
+#include <string>
+
 class Statement {
     std::string opcode;
     std::string operand1;
