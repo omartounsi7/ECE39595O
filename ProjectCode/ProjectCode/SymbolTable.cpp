@@ -2,6 +2,8 @@
  #include <string>
  #include <vector>
  #include "SymbolTable.h"
+ #include "Table.h"
+ 
 
 
  SymbolTable::SymbolTable() {
@@ -16,7 +18,7 @@
  }
  int SymbolTable::getData(std::string key) {
      if (!mapDefined) {
-         return -1; // just an error value I picked
+         return -1;
          for (auto const& e : *definedMap) {
              if (e.first == key) {
                  return x.second;

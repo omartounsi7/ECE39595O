@@ -3,6 +3,7 @@
 
  #include <map>
  #include <string>
+ #include <vector>
  
 //SymbolTable maps from a varible/label key to a table entry
 //Implemented as Singleton
@@ -14,6 +15,7 @@
  	private:
  		int idx;
  		void *definedMap;
+        std::map<std::string, std::vector<double> mapDefined;
         SymbolTable();
  };
 
