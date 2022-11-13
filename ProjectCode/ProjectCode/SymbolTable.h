@@ -15,7 +15,7 @@
  	private:
  		int idx;
  		void *definedMap;
-        std::map<std::string, std::vector<double> mapDefined;
+        std::map<std::string, std::vector<double>> mapDefined;
         SymbolTable();
  };
 

@@ -131,11 +131,14 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SymbolTable.cpp" />
     <ClCompile Include="Table.cpp" />
+    <ClCompile Include="VMAction.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Statement.h" />
     <ClInclude Include="SymbolTable.h" />
     <ClInclude Include="parser.h" />
     <ClInclude Include="Table.h" />
+    <ClInclude Include="VMAction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

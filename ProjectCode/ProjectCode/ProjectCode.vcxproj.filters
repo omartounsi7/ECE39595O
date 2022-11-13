@@ -27,6 +27,9 @@
     <ClCompile Include="Table.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="VMAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="parser.h">
@@ -36,6 +39,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Statement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VMAction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

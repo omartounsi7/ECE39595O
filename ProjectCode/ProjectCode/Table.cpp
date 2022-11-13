@@ -5,4 +5,5 @@
 TableEntry::TableEntry(double location, double length) {
 	this->location = location;
 	this->length = length;
+
 }

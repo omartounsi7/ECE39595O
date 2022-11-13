@@ -1,0 +1,22 @@
+﻿  parser.cpp
+  main.cpp
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\main.cpp(14,19): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\main.cpp(18,17): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Statement.cpp
+  SymbolTable.cpp
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\SymbolTable.cpp(12,8): error C2065: 'mapDefined': undeclared identifier
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\SymbolTable.cpp(13,4): error C2065: 'mapDefined': undeclared identifier
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\SymbolTable.cpp(15,10): error C2065: 'mapDefined': undeclared identifier
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\SymbolTable.cpp(18,11): error C2065: 'mapDefined': undeclared identifier
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\SymbolTable.cpp(20,32): error C2597: illegal reference to non-static member 'SymbolTable::definedMap'
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\SymbolTable.h(17): message : see declaration of 'SymbolTable::definedMap'
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\SymbolTable.cpp(20,10): error C2530: 'e': references must be initialized
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\SymbolTable.cpp(20,10): error C3531: 'e': a symbol whose type contains 'auto' must have an initializer
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\SymbolTable.cpp(20,29): error C2143: syntax error: missing ';' before ':'
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\SymbolTable.cpp(20,42): error C2143: syntax error: missing ';' before ')'
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\SymbolTable.cpp(22,25): error C2065: 'x': undeclared identifier
+  Table.cpp
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\Table.cpp(5,56): error C2248: 'SymbolTable::SymbolTable': cannot access private member declared in class 'SymbolTable'
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\SymbolTable.h(18): message : see declaration of 'SymbolTable::SymbolTable'
+C:\Users\brian\Purdue Work\Fall 2022\ECE 39595\Project\ProjectCode\ProjectCode\SymbolTable.h(10): message : see declaration of 'SymbolTable'
+  Generating Code...
