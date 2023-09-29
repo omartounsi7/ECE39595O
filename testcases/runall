@@ -1,0 +1,4 @@
+for f in 0StartExit 10Swap 11Label 12Jump 13SimpleGoSub_GoSubLabel_Return 14ScalarEasy 15ScalarHard 16ScalarEasy 17ScalarHard 18ScalarHardest 19ArrayEasy 1PushI 20ArrayHard 21ArrayEasy 22ArrayHard 23ArrayHardest 24JumpZero 25JumpNZero 26Recurse 27DotProd 2PrintTOS 3Add 4Prints 5Div 6Dup 7Mul 8Negate 99Sample 9Pop
+do
+   parser $f > out
+done

@@ -1,0 +1,8 @@
+touch out
+rm out
+touch out
+for f in Err1StmtAfterEnd Err2NoEnd Err3DoubleDefScalar Err4DoubleDefArr Err5DoubleDefLabel
+do
+   echo $f >> out
+   ./parser $f >> out
+done

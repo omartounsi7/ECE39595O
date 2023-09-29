@@ -1,0 +1,7 @@
+start
+pushi 2
+pushi 6
+add
+prints 2+6=
+printtos
+end
