@@ -1,4 +1,4 @@
-# ECE39595O
+# ParserVMProject
 A parser for a custom assembly language in C++
 
 To execute tests, run:
