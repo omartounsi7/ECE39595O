@@ -8,16 +8,15 @@ pushi 4
 pushi 8
 pushi 1
 poparr A
-pushi 2
+pushi 0
 poparr B
 pushi 1
 pusharr A
-pushi 2
+pushi 0
 pusharr B
 return
 label L2
 printtos
-pop
 printtos
 exit
 end

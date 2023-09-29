@@ -15,7 +15,6 @@ pushscal B
 return
 label L2
 printtos
-pop
 printtos
 exit
 end

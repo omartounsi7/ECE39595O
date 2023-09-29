@@ -2,7 +2,7 @@ start
 pushi 6
 pushi 2
 div
-prints 6/2=
+prints 2/6=
 printtos
 exit
 end

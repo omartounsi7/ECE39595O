@@ -4,4 +4,5 @@ pushi 6
 add
 prints 2+6=
 printtos
+exit
 end

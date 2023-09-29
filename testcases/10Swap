@@ -3,7 +3,6 @@ pushi 6
 pushi 7
 swap
 printtos
-pop
 printtos
 exit
 end

@@ -8,7 +8,6 @@ popscal B
 pushscal A
 pushscal B
 printtos
-pop
 printtos
 exit
 end

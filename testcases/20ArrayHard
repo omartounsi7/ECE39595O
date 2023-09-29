@@ -1,5 +1,5 @@
 start
-declscal A 4
+declarr A 4
 pushi 4
 pushi 8
 pushi 1
@@ -11,7 +11,6 @@ pusharr A
 pushi 2
 pusharr A
 printtos
-pop
 printtos
 exit
 end
