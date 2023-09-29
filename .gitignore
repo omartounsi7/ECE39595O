@@ -1,4 +1,4 @@
 
 .vscode
-build
-testcases/parserOutputs
+build/*
+testcases/parserOutputs/*
