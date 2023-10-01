@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir build
+
 g++ -o build/parser src/parser.cpp
 
 if [ $? -eq 0 ]; then
@@ -21,6 +23,8 @@ output_dir="testcases/parserOutputs"
 expected_output_dir="testcases/parserExpectedOutputs"
 tests=0
 successful_tests=0
+
+mkdir "$output_dir"
 
 for input_file in "$input_dir"/*; do
   if [ -f "$input_file" ]; then
